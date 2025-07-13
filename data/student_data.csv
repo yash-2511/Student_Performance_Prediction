@@ -1,0 +1,11 @@
+hours_studied,attendance,previous_grade,internet,parent_education,performance
+2,60,55,yes,none,Poor
+6,90,75,yes,bachelor,Average
+9,95,85,no,master,Excellent
+5,85,65,yes,high_school,Average
+8,92,80,no,bachelor,Excellent
+4,70,60,yes,none,Poor
+10,97,90,no,master,Excellent
+1,50,45,yes,none,Poor
+3,65,50,yes,high_school,Poor
+7,88,78,no,bachelor,Average

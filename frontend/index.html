@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Performance Predictor</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 Student Performance Prediction</h1>
+    <form id="predictForm">
+      <label>Attendance (%)</label>
+      <input type="number" id="attendance" min="0" max="100" required>
+
+      <label>Hours Studied</label>
+      <input type="number" id="hours_studied" min="0" max="12" required>
+
+      <label>Previous Grade</label>
+      <input type="number" id="previous_grade" min="0" max="100" required>
+
+      <label>Internet Access</label>
+      <select id="internet">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label>Parental Education</label>
+      <select id="parent_education">
+        <option value="high_school">High School</option>
+        <option value="bachelor">Bachelor</option>
+        <option value="master">Master</option>
+        <option value="none">None</option>
+      </select>
+
+      <button type="submit">Predict</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
